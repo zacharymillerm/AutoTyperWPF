@@ -30,24 +30,30 @@ namespace AutoPiper
 				return;
 			}
 
-			// Ensure previous operation is canceled before starting a new one
 			_cts?.Cancel();
 			_cts = new CancellationTokenSource();
 			CancellationToken token = _cts.Token;
 
-			await Task.Delay(4000, token); // Wait for 4 seconds before starting, can be canceled
-
-			await SimulateTypingAsync(textToType, token);
+			try
+			{
+				await Task.Delay(4000, token); // Wait for 4 seconds before starting, can be canceled
+				await SimulateTypingAsync(textToType, token);
+			}
+			catch (TaskCanceledException)
+			{
+				// Task was canceled, safely exit without crashing
+			}
 		}
 
 		private async Task SimulateTypingAsync(string text, CancellationToken token)
 		{
 			var simulator = new InputSimulator();
 			Random random = new Random();
+			int speed = cbxDouble.IsChecked == true ? 1 : 2;
 
 			foreach (char c in text)
 			{
-				if (token.IsCancellationRequested) return; // Stop if canceled
+				if (token.IsCancellationRequested) return;
 
 				if (c == '\n')
 				{
@@ -58,14 +64,21 @@ namespace AutoPiper
 					simulator.Keyboard.TextEntry(c);
 				}
 
-				int delay = random.Next(60, 81);
-				await Task.Delay(delay, token); // Allow cancellation during delay
+				int delay = random.Next(35 * speed, 50 * speed + 1);
+				try
+				{
+					await Task.Delay(delay, token);
+				}
+				catch (TaskCanceledException)
+				{
+					return; // Stop execution without crashing
+				}
 			}
 		}
 
 		private void btnStop_Click(object sender, RoutedEventArgs e)
 		{
-			_cts?.Cancel(); // Stop typing when the stop button is clicked
+			_cts?.Cancel();
 		}
 	}
 }

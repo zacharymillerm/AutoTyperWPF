@@ -44,11 +44,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\WorkSpace\\Tech\\AutoPiper\\AutoPiper.csproj",
+      "projectUniqueName": "E:\\WorkSpace\\Tech\\AutoTyperWPF\\AutoPiper.csproj",
       "projectName": "AutoPiper",
-      "projectPath": "E:\\WorkSpace\\Tech\\AutoPiper\\AutoPiper.csproj",
+      "projectPath": "E:\\WorkSpace\\Tech\\AutoTyperWPF\\AutoPiper.csproj",
       "packagesPath": "C:\\Users\\Souleye\\.nuget\\packages\\",
-      "outputPath": "E:\\WorkSpace\\Tech\\AutoPiper\\obj\\",
+      "outputPath": "E:\\WorkSpace\\Tech\\AutoTyperWPF\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

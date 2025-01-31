@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "awFPlJq/3sHbpYlY6L2xIyfgM2mSshWVl6AKJuGVT6TXLcUu7+/Wj5MUCPlqPNrg2oOo4uyn0jP7bsfwc2CqJw==",
+  "dgSpecHash": "3XOwK1RyVxK3l8AU7WTyZ+Q77XbMwndCf72JB13YG5+hbc2jlFKafUwFIrtXJVMBLdXf6lm1qKRgHA5jEKNOhg==",
   "success": true,
-  "projectFilePath": "E:\\WorkSpace\\Tech\\AutoPiper\\AutoPiper.csproj",
+  "projectFilePath": "E:\\WorkSpace\\Tech\\AutoTyperWPF\\AutoPiper.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Souleye\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512"
   ],

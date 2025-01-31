@@ -8,7 +8,7 @@
         Title="AutoPiper1.0" Height="400" Width="500" WindowStartupLocation="CenterScreen" MaxWidth="500" MaxHeight="400" MinHeight="400" MinWidth="250" Icon="/DevHome.png">
 	<Grid>
 		<TextBox Name="txtInput" VerticalScrollBarVisibility="Auto" AcceptsReturn="True" TextWrapping="Wrap" Margin="10,10,10,50"/>
-		<Button Content="Send" Name="btnSend" Click="btnSend_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,108,10" Width="80"/>
-		<Button Content="Stop" x:Name="btnStop" Click="btnStop_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Width="80"/>
+		<Button Content="Send" Name="btnSend" Click="btnSend_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,108,10" Width="80" Height="25"/>
+		<Button Content="Stop" x:Name="btnStop" Click="btnStop_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,10,10" Width="80" Height="25"/>
 	</Grid>
 </Window>

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\WorkSpace\Tech\AutoPiper\obj\Release\net7.0-windows\
+E:\WorkSpace\Tech\AutoTyperWPF\obj\Release\net7.0-windows\
 AutoPiper
 none
 false
 TRACE;RELEASE;NET;NET7_0;NETCOREAPP
-E:\WorkSpace\Tech\AutoPiper\App.xaml
+E:\WorkSpace\Tech\AutoTyperWPF\App.xaml
 11407045341
 1326505061
 5-30303167
 199162257031
 MainWindow.xaml;
 
-True
+False
 

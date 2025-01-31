@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoPiper", "AutoPiper.csproj", "{C7E5CD16-DBF3-4C46-B2F2-F7669FF3BF4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7E5CD16-DBF3-4C46-B2F2-F7669FF3BF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E5CD16-DBF3-4C46-B2F2-F7669FF3BF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E5CD16-DBF3-4C46-B2F2-F7669FF3BF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E5CD16-DBF3-4C46-B2F2-F7669FF3BF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1F2AD72-9A2B-4F81-9627-54CFF49565E6}
+	EndGlobalSection
+EndGlobal

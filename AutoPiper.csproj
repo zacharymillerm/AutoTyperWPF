@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>DevHome.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DevHome.ico" />
+    <None Remove="DevHome.png" />
+    <None Remove="images.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="DevHome.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="InputSimulator" Version="1.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="DevHome.ico" />
+    <Resource Include="DevHome.png" />
+  </ItemGroup>
+
+</Project>

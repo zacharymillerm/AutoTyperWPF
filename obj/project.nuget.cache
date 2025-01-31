@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "awFPlJq/3sHbpYlY6L2xIyfgM2mSshWVl6AKJuGVT6TXLcUu7+/Wj5MUCPlqPNrg2oOo4uyn0jP7bsfwc2CqJw==",
+  "success": true,
+  "projectFilePath": "E:\\WorkSpace\\Tech\\AutoPiper\\AutoPiper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Souleye\\.nuget\\packages\\inputsimulator\\1.0.4\\inputsimulator.1.0.4.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'InputSimulator 1.0.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "InputSimulator",
+      "targetGraphs": [
+        "net7.0-windows7.0"
+      ]
+    }
+  ]
+}
